@@ -5,6 +5,7 @@ import java.util.Properties;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.tutorials.kafka.OrderProducer.OrderCallback;
+import org.tutorials.kafka.OrderProducer.customSerializer.partitioner.Order;
 
 /**
  * This class demonstrates how to produce messages to a Kafka topic using a custom serializer for Order objects.

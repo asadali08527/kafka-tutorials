@@ -1,6 +1,8 @@
 package org.tutorials.kafka.OrderProducer.customSerializer;
 
 import org.apache.kafka.common.serialization.Serializer;
+import org.tutorials.kafka.OrderProducer.customSerializer.partitioner.Order;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

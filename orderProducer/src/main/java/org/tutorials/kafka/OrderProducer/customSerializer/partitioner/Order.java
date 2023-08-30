@@ -1,4 +1,4 @@
-package org.tutorials.kafka.OrderProducer.customSerializer;
+package org.tutorials.kafka.OrderProducer.customSerializer.partitioner;
 
 public class Order {
 	
