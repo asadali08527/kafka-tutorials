@@ -31,7 +31,7 @@ public class DataFlowStreams {
 
 		
 		Topology topology = builder.build();
-		System.out.println(topology.describe());
+		//System.out.println(topology.describe());
 		
 		//Start and Stop Stream
 		KafkaStreams kafkaStreams = new KafkaStreams(topology, properties);
